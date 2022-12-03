@@ -1,0 +1,32 @@
+.ct-product-card {
+    width: 100%;
+    max-width: 746px;
+    border: 1px solid var(--ct-color-border-primary);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ct-product-card img {
+    width: 260px;
+    padding: 10px 0 10px 0;
+}
+
+.ct-product-card h3 {
+    font-size: 16px;
+    color: var(--ct-color-font-primary);
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .ct-product-card img {
+        width: 390px;
+        padding: 20px 0 10px 0;
+    }
+
+    .ct-product-card h3 {
+        font-size: 20px;
+    }
+}

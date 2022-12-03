@@ -1,0 +1,37 @@
+#ct-product-section {
+    padding: 25px 0;
+}
+
+main h2 {
+    font-size: 20px;
+    color: var(--ct-color-font-primary);
+    text-align: center;
+}
+
+.ct-product-section-container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ct-comentary-section {
+    padding: 25px 0;
+    background-color: var(--ct-color-bg-tertiary);
+}
+
+.ct-comentary-section-container {
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    main h2 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ct-comentary-section-container {
+        padding: 0;
+    }
+}
